@@ -1,0 +1,20 @@
+@media only screen and (max-width: 871px) {
+    .nav {
+        padding: 30px 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .items {
+        display: hidden;
+    }
+}
+
+.text-stroke-black:hover {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3a80e9;
+    transition: all 0.3s;
+}
