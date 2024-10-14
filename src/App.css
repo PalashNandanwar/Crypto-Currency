@@ -18,3 +18,9 @@
     -webkit-text-stroke-color: #3a80e9;
     transition: all 0.3s;
 }
+
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+}
