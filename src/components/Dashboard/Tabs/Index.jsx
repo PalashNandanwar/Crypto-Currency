@@ -14,7 +14,7 @@ const TabsComponents = ({ coin }) => {
 
     return (
         <div>
-            <div className="flex">
+            <div className="flex mt-10">
                 <button
                     onClick={() => handleChangeTab("grid")}
                     className={`w-full p-2 font-bold text-2xl ${activeTab === "grid" ? "border-b-4 border-blue-500 text-blue-500" : ""}`}

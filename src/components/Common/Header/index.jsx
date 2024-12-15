@@ -17,7 +17,7 @@ const Header = () => {
                     <Link to='/'>
                         <li className="text-lg font-semibold capitalize cursor-pointer">home</li>
                     </Link>
-                    <li className="text-lg font-semibold capitalize cursor-pointer">compare</li>
+                    {/* <li className="text-lg font-semibold capitalize cursor-pointer">compare</li> */}
                     <Link to="/dashboard">
                         <Button clas="px-[30px] py-[10px] rounded-full capitalize text-lg text-white bg-blue-500 hover:shadow-xl cursor-pointer" text="dashboard" onClick={() => {
                             console.log("HEllo");
