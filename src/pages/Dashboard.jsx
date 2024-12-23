@@ -18,7 +18,7 @@ const Dashboard = () => {
     })
 
     useEffect(() => {
-        axios.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_des&per_page=100&page=0&locale=en")
+        axios.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_des&per_page=200&page=0&locale=en")
             .then((res) => {
                 console.log(res.data);
                 setCoins(res.data)
