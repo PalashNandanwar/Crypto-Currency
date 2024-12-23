@@ -1,21 +1,32 @@
+# CryptoTracker  
 
-Crypto Tracker
+CryptoTracker is a modern web application that helps users track and analyze cryptocurrency trends. It provides real-time data, search functionality, detailed descriptions, and 30-day price history for various cryptocurrencies.
 
-The Crypto Tracker is a web-based platform designed to help users monitor various cryptocurrencies in real-time. It allows users to view the latest prices, market trends, and detailed information for different cryptocurrencies. Additionally, users can compare the performance and value of cryptocurrencies against each other and traditional currencies, enabling them to make informed decisions.
+## Features  
 
-This project is ideal for cryptocurrency enthusiasts, traders, and investors who want an easy way to stay updated on market changes, track their favorite coins, and evaluate currency comparisons.
+- **Search and Filter:** Quickly find any cryptocurrency by name or symbol.  
+- **Price Trends:** View price changes over the last 30 days using dynamic charts.  
+- **Detailed Info:** Read descriptions and data for each cryptocurrency.  
+- **Responsive Design:** Fully optimized for both mobile and desktop users.  
 
+---
 
-## 🚀 About Me
-I’m Palash Nandanwar, a passionate Software Engineer with a strong foundation in data structures, algorithms, and full-stack web development. With experience in languages like Java, C++, Python, and JavaScript, I enjoy creating intuitive, user-friendly web applications using React, Node.js, and MongoDB.
+## Tech Stack  
 
+- **Frontend:** React.js, Tailwind CSS  
+- **Charts:** Chart.js  
+- **API:** CoinGecko API (or similar) for live cryptocurrency data  
 
-## 🛠 Skills
-Programming Languages 🖥️: Java, C++, Python, JavaScript
-Web Development 🌐: React, Node.js, Express.js, HTML, CSS
-Database Management 🗄️: MongoDB, MySQL
-Data Processing 📊: OpenCV
-Animation & UI Design 🎨: Tailwind CSS
-Tools & Platforms ⚙️: Google Colab, GitHub
-Problem-Solving 🧩: LeetCode (200+ questions solved)
+---
 
+## Installation  
+
+### Prerequisites  
+- Node.js and npm installed  
+
+### Steps  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/cryptotracker.git
+   cd cryptotracker
